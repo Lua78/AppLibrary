@@ -19,6 +19,10 @@
                         <li class="list-group-item">
                             <a class="btn btn-success w-100" href="{{ route('loans.index') }}">Loans</a>
                         </li>
+
+                        <li class="list-group-item">
+                            <a class="btn btn-danger w-100" href="{{ url('/logout') }}">Logout</a>
+                        </li>
                     </ul>
                 </div>
             </div>
